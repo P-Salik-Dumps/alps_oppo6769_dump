@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<features>
+    <!-- BSP feature -->
+    <feature name="com.oppo.eng.otg.support" />
+    <feature name="com.oppo.eng.sdcard.support" />
+    <feature name="com.oppo.eng.type.c.support" />
+    <!--#ifndef ODM_WT_EDIT-->
+    <!--Rui.Li@ODM_WT.AD.ENGINEERINGMODE,2021/01/19,suit even -->
+    <!--<feature name="com.oppo.eng.vooc.charger.support" />-->
+    <!--#endif ODM_WT_EDIT-->
+    <feature name="com.oppo.eng.smallboard.detect.support" />
+    <feature name="com.oppo.eng.a.smallboard.detect.support" />
+    <feature name="com.oppo.eng.gyroscope.sensor.support" />
+    <feature name="com.oppo.eng.magnetic.sensor.support" />
+    <feature name="com.oppo.eng.gravity.sensor.calibrate.support" />
+    <feature name="com.oppo.eng.proximity.sensor.calibrate.support" />
+    <feature name="com.oppo.eng.proximity.distance.calibration.support" />
+    <feature name="com.oppo.eng.screen.light.sensor.support" />
+    <feature name="com.oppo.eng.light.sensor.calibrate.support" />
+    <feature name="com.oppo.eng.sensor.selftest.support" />
+    <feature name="com.oppo.eng.stepcounter.sensor.support" />
+    <feature name="com.oppo.eng.ship.mode.support" />
+    <!--#ifndef ODM_WT_EDIT-->
+    <!--Rui.Li@ODM_WT.AD.ENGINEERINGMODE,2021/01/19,suit even -->
+    <!--<feature name="com.oppo.eng.vooc.charge.current.range" value="(-6500,-2500)"/>-->
+    <!--#else ODM_WT_EDIT-->
+    <feature name="com.oppo.eng.network.air.interface.detect.support" />
+    <feature name="com.oppo.eng.qc.charge.current.range" value="(-4000,-500)"/>
+    <feature name="com.oppo.eng.qc.charge.current.slow.range" value="(-4000,-200)"/>
+    <feature name="com.oppo.eng.qc.charger.support" />
+    <feature name="com.oppo.eng.network.air.interface.detect.support" />
+    <feature name="com.oppo.eng.devices.cali.status.check.support" />
+    <feature name="com.oppo.eng.network.stancurtest.support" />
+    <!--#endif ODM_WT_EDIT-->
+
+    <!-- Network feature -->
+    <feature name="com.oppo.eng.sar.body" value="1.07" />
+    <feature name="com.oppo.eng.sar.head" value="1.18" />
+
+    <!-- Multimedia feature -->
+    <!--#ifndef ODM_WT_EDIT-->
+    <!--Rui.Li@ODM_WT.AD.ENGINEERINGMODE,2021/01/19,suit even -->
+    <!--<feature name="com.oppo.eng.smart.pa.calibrate.support" />-->
+    <!--#endif ODM_WT_EDIT-->
+    <!-- Connectivity feature -->
+
+    <!-- Android feature -->
+    <feature name="com.oppo.eng.exp.version" />
+    <!-- for Aging V1.3 -->
+    <feature name="com.oppo.eng.production.line.aging.new.support" />
+    <feature name="com.oppo.eng.navigation.bar.support" />
+    <feature name="com.oppo.eng.standlone.userdata.support" />
+    <feature name="com.oppo.eng.mtk.atm.mode.support" />
+</features>

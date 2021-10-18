@@ -1,0 +1,6 @@
+com.tencent.igoppo:com.tencent.igoppo.apk::false
+com.realme.link:realmeLink-releaseExp-1.2.258.12_470_50937ab_202101281942_signed.apk::false
+cn.wps.moffice_eng:moffice_12.3.1.2_default_mul01087_multidex_32_2daec671deb.apk:wps.txt:false
+com.zhiliaoapp.musically:app_tt_oppo2021_yz1_MusicallyI18n_v18.2.0_ff0682c-32bit.apk:pre_install.appsflyer:false
+com.daraz.android:700154@daraz_4.10.1.apk:darazChannel.txt:false
+com.linkedin.android:LinkedIn::true

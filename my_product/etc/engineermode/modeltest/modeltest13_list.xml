@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ModelTestList>
+    <ModelItem name="ArcSoftDulCameraCalibrate" />
+    <!--#ifndef ODM_WT_EDIT-->
+    <!--Rui.Li@ODM_WT.AD.ENGINEERINGMODE,2021/01/19,suit even -->
+    <!--<ModelItem name="SmartPACalibrate" />-->
+    <!--#endif ODM_WT_EDIT-->
+</ModelTestList>

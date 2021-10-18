@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ModelTestList>
+    <ModelItem name="NormalChargerTest" />
+    <!--#ifdef ODM_WT_EDIT-->
+    <!--Rui.Li@ODM_WT.AD.ENGINEERINGMODE,2021/01/19,suit event test -->
+    <ModelItem name="QCChargerTest" />
+    <!--#else ODM_WT_EDIT-->
+    <!--<ModelItem name="VoocChargerTest" />-->
+    <!--#endif  ODM_WT_EDIT-->
+</ModelTestList>
